@@ -25,6 +25,6 @@ setup(
         ],
     },
     data_files=[
-        (os.path.join('share', ModeManuel, 'launch'),glob(os.path.join('launch', '*launch.[pxy][yma]*')))
+        (os.path.join('share', 'ModeManuel', 'launch'),glob(os.path.join('launch', '*launch.[pxy][yma]*')))
         ]
 )

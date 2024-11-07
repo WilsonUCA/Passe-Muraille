@@ -13,6 +13,7 @@ class BasicPublisher(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
+
         self.sub = self.create_subscription(LaserScan, 'Scan', self.callback, 10)
 
     def callback(self, msg):
